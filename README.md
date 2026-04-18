@@ -59,14 +59,6 @@ python app.py
 
 Returns a `image/png` file.
 
-## Deploy to Coolify
-
-1. Push this repository to GitHub/GitLab
-2. In Coolify → **New Resource** → **Docker Compose** or **Dockerfile**
-3. Point to this repo — Coolify auto-detects the `Dockerfile`
-4. Set domain to `qr.ifuntanhub.dev`
-5. Deploy
-
 ## Environment
 
 No environment variables required. The app runs on port `5000`.
